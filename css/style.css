@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+}
+* ul {
+  list-style: none;
+}
+* a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  padding: 0px 32px;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+}
+nav .nav-center {
+  width: 100%;
+  background-color: bisque;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav-center ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}/*# sourceMappingURL=style.css.map */
