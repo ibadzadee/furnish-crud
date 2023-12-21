@@ -146,4 +146,57 @@ nav .nav-center ul a {
 }
 #json .card4 {
   background-color: #f4e6d8;
+}
+
+#about {
+  width: 100%;
+  background-image: url(../img/bg_4.jpg.webp);
+  position: relative;
+  padding: 350px 0px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#about .text {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  z-index: 11;
+  top: 50%;
+  right: 150px;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  gap: 20px;
+}
+#about .text h5 {
+  color: gray;
+  font-weight: 500;
+}
+#about .text h2 {
+  font-size: 50px;
+  font-weight: 500;
+  color: #052c43;
+}
+#about .text p {
+  color: gray;
+  font-size: 20px;
+}
+#about .text .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#about .text .button #play {
+  color: #cf7500;
+  font-size: 20px;
+  font-weight: 700;
+}
+#about .text .button a i {
+  color: #cf7500;
+  font-size: 80px;
 }/*# sourceMappingURL=style.css.map */

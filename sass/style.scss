@@ -167,5 +167,55 @@ nav {
     .card4{
         background-color: $card4;
     }
-    
+}
+
+// <!-------------------- ABOUT -------------------->
+#about{
+    width: 100%;
+    background-image: url(../img/bg_4.jpg.webp);
+    position: relative;
+    padding: 350px 0px;
+    // height: 88vh;
+    @include image;
+    // z-index: 10;
+    .text{
+        width: 40%;
+        // padding: 300px 0px;
+        @include display(center , flex-start);
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        z-index: 11;
+        top: 50%;
+        right: 150px;
+        transform: translateY(-50%);
+        margin: 0 auto;
+        gap: 20px;
+        h5{
+            color: gray;
+            font-weight: 500;
+        }
+        h2{
+            font-size: 50px;
+            font-weight: 500;
+            color: $black-blue
+        }
+        p{
+            color: gray;
+            font-size: 20px;
+        }
+        .button{
+            @include display;
+            gap: 20px;
+            #play{
+                color: $orange;
+                font-size: 20px;
+                font-weight: 700;
+            }
+            a i{
+                color: $orange;
+                font-size: 80px;
+            }
+        }
+    }
 }
